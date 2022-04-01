@@ -197,6 +197,7 @@ section {
 @media only screen and (max-width: 1160px) {
   .container-section,
   .main-content,
+  .main-title
   .subtitle,
   .second-title,
   p {
@@ -242,6 +243,8 @@ section {
   }
   .subtitle {
     font-size: 1.25rem;
+    justify-content: center;
+    text-align: center;
   }
   .second-title {
     font-size: 1.75rem;

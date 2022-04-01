@@ -41,14 +41,13 @@ p {
 }
 
 @media only screen and (max-width: 630px) {
-
   .container-section {
     margin: 2rem auto;
   }
   .second-title,
   .rectangle,
   p {
-    width: auto;
+    width: 90%;
     margin: 2rem auto;
   }
   .banner {

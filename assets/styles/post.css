@@ -73,17 +73,30 @@ section {
   .title-article,
   .rectangle,
   .main-title,
-  .container-section {
+  .container-section,
+  .box {
     max-width: 100%;
+    width: auto;
     align-items: center;
     text-align: center;
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 2rem auto;
+    margin: 2rem 0.5rem;
+  }
+
+  .rectangle {
+    width: 70%;
+    height: 50%;
+    margin: 0 1rem;
+  }
+
+  .triad {
+    margin: 0.5rem 0.5rem;
+    width: 80%;
   }
 
   p {
-    width: 80%;
+    width: 70%;
   }
 }
