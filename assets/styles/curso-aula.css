@@ -1,0 +1,32 @@
+.box {
+  margin-left: 0;
+}
+
+.img-investimento {
+  width: 380px;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin: 2rem auto 0;
+}
+
+video {
+  background: url("../images/video.png") no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 50%;
+  margin: 2rem auto;
+}
+
+@media only screen and (max-width: 1160px) {
+  .img-investimento {
+    display: none;
+  }
+
+  .video {
+    display: flex;
+    justify-content: center;
+  }
+}

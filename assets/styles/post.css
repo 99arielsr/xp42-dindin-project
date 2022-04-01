@@ -1,0 +1,89 @@
+.container-section {
+  margin: 7.5rem auto;
+}
+
+.img-investimento::before {
+  content: url("../images/ilustra-investimento.svg");
+  margin-bottom: 2.813rem;
+}
+
+.img-poupando::before {
+  content: url("../images/ilustra-poupando.svg");
+  margin-bottom: 2.813rem;
+}
+
+.img-independencia::before {
+  content: url("../images/ilustra-independencia.svg");
+  margin-bottom: 2.813rem;
+}
+
+.bg-pink-button {
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #ffffff;
+  padding: 0.938rem 3.125rem;
+  background-color: #ff4081;
+  border-radius: 62px;
+  width: 140px;
+  margin-bottom: 3rem;
+}
+
+.main-title {
+  width: 100%;
+  text-align: center;
+}
+
+.rectangle {
+  width: 1080px;
+  height: 465px;
+  margin-bottom: 4rem;
+}
+
+.date {
+  font-size: 1.125rem;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 4.75rem;
+}
+
+p {
+  color: #000;
+  margin: 1rem auto;
+  font-size: 1.125rem;
+}
+
+.title-article {
+  font-size: 1.75rem;
+  font-weight: 500;
+  color: #419488;
+  margin: 4rem auto 1rem;
+}
+
+.bg-gray {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+section {
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1160px) {
+  p,
+  .title-article,
+  .rectangle,
+  .main-title,
+  .container-section {
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 2rem auto;
+  }
+
+  p {
+    width: 80%;
+  }
+}

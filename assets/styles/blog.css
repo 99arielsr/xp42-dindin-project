@@ -1,0 +1,57 @@
+.container-section {
+  margin: 7.5rem auto;
+}
+
+.banner {
+  margin: 1rem auto;
+}
+
+.bg-gray {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.rectangle {
+  width: 480px;
+  margin: auto;
+}
+
+.blue-title {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  max-width: 15ch;
+}
+
+.subtitle {
+  max-width: 70%;
+}
+
+p {
+  width: 40ch;
+}
+
+.second-title {
+  font-size: 1.875rem;
+  max-width: 35ch;
+  margin: 1rem auto auto;
+}
+
+.box {
+  margin: 3rem auto;
+}
+
+@media only screen and (max-width: 630px) {
+
+  .container-section {
+    margin: 2rem auto;
+  }
+  .second-title,
+  .rectangle,
+  p {
+    width: auto;
+    margin: 2rem auto;
+  }
+  .banner {
+    display: none;
+  }
+}
