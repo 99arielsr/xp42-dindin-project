@@ -11,4 +11,4 @@ Uma simulação onde fui contratado para desenvolver uma plataforma de educaçã
 
 HTML5 com foco em semantica, CSS3 com foco na responsividade.
 
-### acesso ao projeto: https://99arielsr.github.io/xp42-dindin-project/
+### acesso ao projeto: https://99arielsr.github.io/xp42_dindin_project/
